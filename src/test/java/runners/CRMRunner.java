@@ -14,7 +14,7 @@ import io.cucumber.junit.CucumberOptions;
 		dryRun=false,
 		plugin={
 				"html:target/Reports/HTMLReport.html"
-		},
+		}
 //		tags="@SmokeTest"
 //		tags= "not @SmokeTest"
 //		tags= "@RegressionTest"
@@ -25,7 +25,7 @@ import io.cucumber.junit.CucumberOptions;
 //		tags = "@PhaseOne and @RegressionTest or @PhaseTwo and @SmokeTest"
 //		tags = "@PhaseOne"
 //		tags = "@SmokeTest"
-		tags = "@RegressionTest"
+//		tags = "@RegressionTest"
 		)
 
 public class CRMRunner {
