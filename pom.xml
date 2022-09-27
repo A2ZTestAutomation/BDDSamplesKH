@@ -85,11 +85,12 @@
       </dependency>
     </dependencies>
     <configuration>
-    <parallel>methods</parallel>
+ <!--    <parallel>methods</parallel>
     <threadCount>2</threadCount>
      <reuseForks>false</reuseForks>
+      -->
            <includes>
-    	**/GooglePageRunner.java
+    	**/CRMRunner.java
     </includes>
         </configuration>
   
