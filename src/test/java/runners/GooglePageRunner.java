@@ -13,11 +13,11 @@ import io.cucumber.junit.CucumberOptions;
 		monochrome=true,
 		dryRun=false,
 		plugin={"pretty",
-				"html:target/Reports/HTMLReport.html"
+				"html:target/Reports/HTMLReport.html",
 //				"rerun:target/failedScenaios.txt"
 //				"usage:target/Reports/UsageReport",
-//				"json:target/Reports/JSONReport.json",
-//				"junit:target/Reports/JunitReport.xml"
+				"json:target/Reports/JSONReport.json",
+				"junit:target/Reports/JunitReport.xml"
 //				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
 		}
 		)
