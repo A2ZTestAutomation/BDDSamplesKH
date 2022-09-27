@@ -14,7 +14,7 @@ import io.cucumber.junit.CucumberOptions;
 		dryRun=false,
 		plugin={
 				"html:target/Reports/HTMLReport.html",
-				"json:target/Reports/JSONReport.json",
+				"json:target/Reports/cucumber.json",
 				"junit:target/Reports/JunitReport.xml"
 		}
 //		tags="@SmokeTest"
